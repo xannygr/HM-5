@@ -7,6 +7,8 @@
 html,
 body {
     font-family: 'DM Sans', sans-serif;
+    background: hsla(0, 0%, 10%, 1);
+
 }
 
 .header {
@@ -14,7 +16,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 43px 70px;
-    background-color: #191919;
 }   
 
 .menu ul {
@@ -32,7 +33,6 @@ body {
     justify-content: space-between;
     align-items: end;
     gap: 60px;
-    background-color: #191919;
     padding: 40px 70px;
 }
 
@@ -82,4 +82,111 @@ body {
 .icons {
     max-width: 32px;
     max-height: 32px;
+}
+
+.section-episodes {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 70px 160px 70px;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes-title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.8px;
+    color:#fff;
+}
+
+.episodes-button {
+    padding: 15px 20px;
+    background-color: hsla(191, 82%, 36%, 1);
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    gap: 53px;
+    background-color: hsla(0, 0%, 0%, 1);
+    padding: 40px;
+    border-radius: 32px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.label {
+    display: inline-block;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+    background-color: hsla(0, 0%, 10%, 1);
+    border-radius: 6px;
+    margin-bottom: 48px;
+    max-width: 136px;
+    margin-top: 8px;
+}
+
+.quantity-episode {
+    color: hsla(191, 82%, 36%, 1);
+    margin-bottom: 18px;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57px;
+    color: #fff;
+    line-height: 70.4px;
+    letter-spacing: 2.5px;
+    margin-bottom: 28px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+
+.details {
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 20px;
+    background-color: hsla(191, 82%, 36%, 1);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    max-width: 213px;
 }
