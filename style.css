@@ -28,14 +28,6 @@ body {
     list-style-type: none;
 }
 
-.section-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 60px;
-    padding: 40px 70px;
-}
-
 .text-wrapper {
     display: flex;
     flex-direction: column;
@@ -57,6 +49,11 @@ body {
     letter-spacing: 0.04em;
     color: #fff;
     margin-left: 25px;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .subtitle-wrapper {
@@ -84,19 +81,17 @@ body {
     max-height: 32px;
 }
 
-.section-episodes {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 70px 160px 70px;
-    gap: 40px;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 70px;
 }
 
+.wrapper-hero {
+    display: flex;
+    gap: 60px;
+}
 .episodes-title {
     font-weight: 400;
     font-size: 64px;
@@ -104,7 +99,19 @@ body {
     letter-spacing: 2.8px;
     color:#fff;
 }
+.wrapper-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
 
+.wrapper-episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px 0;
+}
 .episodes-button {
     padding: 15px 20px;
     background-color: hsla(191, 82%, 36%, 1);
