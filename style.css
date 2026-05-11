@@ -112,6 +112,13 @@ body {
     gap: 40px;
     padding: 100px 0;
 }
+.wrapper-promo {
+    display: flex;
+    gap: 40px;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
 .episodes-button {
     padding: 15px 20px;
     background-color: hsla(191, 82%, 36%, 1);
@@ -196,4 +203,28 @@ p {
     border: none;
     cursor: pointer;
     max-width: 213px;
+}
+
+.title-promo {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.8px;
+    color :#fff;
+    margin-bottom: 28px;
+}
+
+.img-promo {
+    max-width: 112px;
+    max-height: 112px;
+    margin-bottom: 20px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrapper p {
+    margin-bottom: 33px;
 }
