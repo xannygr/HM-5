@@ -278,6 +278,7 @@ p {
     width: 100%;
     display: block;
 }
+
 .quantity-episode.email{
     margin-bottom: 0px;
 }
@@ -288,4 +289,14 @@ p {
     max-width: 87px;
     font-weight: 700;
     font-size: 15px;
+    transition: all 0.1s ease-in-out;
+}
+
+.details.form:hover {
+    background-color: rgb(11, 83, 99);
+}
+
+.details.form:active {
+    background-color: rgb(182, 199, 202);
+    color:black
 }
