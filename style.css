@@ -300,3 +300,37 @@ p {
     background-color: rgb(182, 199, 202);
     color:black
 }
+
+.wrapper-review {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    gap: 16px
+}
+
+.star-img {
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background-color: hsla(0, 0%, 0%, 1);
+    padding: 50px;
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+}
+
+.review-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: hsla(0, 0%, 100%, 0.7)
+}
