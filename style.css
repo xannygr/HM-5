@@ -334,3 +334,45 @@ p {
     line-height: 28.8px;
     color: hsla(0, 0%, 100%, 0.7)
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 70px;
+}
+
+.logo {
+    width: 448px;
+}
+
+.img-logo {
+    margin-bottom: 20px;
+}
+
+.soc1al-media {
+    display: flex;
+    gap: 12px;
+}
+
+.links{
+    width: 179px;
+}
+
+.links li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    list-style-type: none;
+    color: hsla(0, 0%, 100%, 1);
+    margin-bottom: 10px;
+}
+
+.icons-wrapper-footer{
+    width: 448px;
+}
+
+.icon {
+    margin-right: 16px;
+}
